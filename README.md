@@ -16,10 +16,14 @@ void calculator(int& a,int& b,int& c,int& s, char& p )
     else if (p == '*'){
         s = a * b * c;
     }
+```
+## Ошибка, если не введена правильно команда
+```cpp
     else{
         cout << "Такой команды нет" << endl;
     }
 ```
+
 ## Создаём переменные
 ```cpp
     int a;
